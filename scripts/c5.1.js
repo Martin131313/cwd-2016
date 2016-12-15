@@ -4,15 +4,25 @@
 // 	}
 // }
 
-var thumbs = document.querySelectorAll('thumb');
-var modal = document.querySelector('pic.modal');
+// var thumbs = document.querySelectorAll('thumb');
+// var modal = document.querySelector('pic.modal');
 
-for(let i = 0; i < thumbs.lenght; i++){
-	// console.log(thumbs[i]);
+// for(let i = 0; i < thumbs.lenght; i++){
+// 	// console.log(thumbs[i]);
 
-	thumbs[i].addEventListener('click', function(){
-		// console.log(this);
-		modal.querySelector('img').src = this.src;
-	});
-}
+// 	thumbs[i].addEventListener('click', function(){
+// 		// console.log(this);
+// 		modal.querySelector('img').src = this.src;
+// 	});
+// }
 
+// window.addEventListener('keydown', function(event)){
+// 	console.log(event.key);
+// };
+// Bitno
+// window.addEventListener(
+// 'keydown',
+// 	function(event){
+// 		console.log(event.key);
+// 	}
+// 	);
